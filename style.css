@@ -17,7 +17,22 @@ with the same id in at the same HTML Page
   border-radius: 40%;
 }
 
+#main-image-wrapper {
+  text-align: center;
+}
 
+#menu {
+  list-style: none;
+  border: thin solid red;
+  padding: 0;
+
+}
+
+
+#menu > li {
+    border: thin solid black;
+    display: inline-grid;
+    padding: 10px;
 
 .grid-container {
   border: thin solid black;
