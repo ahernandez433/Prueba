@@ -1,0 +1,38 @@
+body {
+  background-color: green;
+  margin: 0;
+}
+
+/*
+IMPORTANT!
+
+You can only have one item
+with the same id in at the same HTML Page
+
+*/
+
+#main-image {
+  width: 400px
+  border-radius: 40%;
+}
+
+
+
+.grid-container {
+  border: thin solid black;
+  display: grid;
+  grid-template-areas: 'header header header header header header'
+                       'right right content content content content'
+                       'footer footer footer footer footer footer';
+
+  grid-gap: 10px;
+}
+
+#header { grid-area: header; }
+#right { grid-area: right; }
+#content { grid-area: content; }
+#footer { grid-area: footer; }
+
+.box {
+  border: thin solid black;
+}
